@@ -2,7 +2,10 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "outDir": "./dist/out-tsc",
+    "paths": {
+      "@assets/*":["./src/app/assets/*"]
+    },
+    "outDir": "docs/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,
